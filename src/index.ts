@@ -85,6 +85,9 @@ while (opcion != 0) {
         case 3:
             search();
             break;
+        case 0:
+            console.log("Programa Finalizado.");
+            break;
         default:
             console.log("Opción Inválida.");
             break;
